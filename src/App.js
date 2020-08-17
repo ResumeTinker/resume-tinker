@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import M from 'materialize-css';
 import 'materialize-css/dist/css/materialize.min.css'
@@ -13,13 +13,15 @@ M.AutoInit();
 
 function App() {
     return (
-        <HashRouter>
-            <Switch>
-                <Route exact path="/" >
-                    <Home />
-                </Route>
-            </Switch>
-        </HashRouter>
+        <BrowserRouter>
+            <main>
+                <Switch>
+                    <Route exact path="/" >
+                        <Home />
+                    </Route>
+                </Switch>
+            </main>
+        </BrowserRouter>
     );
 }
 
