@@ -50,20 +50,18 @@ const Home = () => {
                     <img src={Logo} alt={"Logo"} />
                     <h4 className="home-slogan">Sell Your <span className="home-slogan-skill">Skill</span></h4>
                 </div>
-                <div className="">
-                    <div className="row home-vertical-align">
-                        <div className="col s12 m6 l6">
-                            <div className="card-panel home-content-attraction-equation-description-panel-desktop">
-                                <h6 className="home-content-attraction-equation-description-desktop">
-                                    Get your recruiters' attention with our beautiful resume design and your great career
-                                </h6>
+                <div className="row home-vertical-align">
+                    <div className="col s12 m12 l6">
+                        <div className="card-panel home-content-attraction-equation-card-panel-desktop home-content-attraction-equation-description-panel-desktop">
+                            <h6 className="home-content-attraction-equation-description-desktop">
+                                Get your recruiters' attention with our beautiful resume design and your great career
+                            </h6>
+                            <div className="card-panel">
+                                <h4 className="home-content-attraction-equation-title-desktop center-align">
+                                    Your Career <br/><span>Plus</span><br/> Our Design <br/><span>Equals</span><br/> <span>Attractive Resume</span>
+                                </h4>
                             </div>
-                        </div>
-                        <div className="col s12 m6 l6">
-                            <h4 className="home-content-attraction-equation-title-desktop center-align">
-                                Your Career + Our Design <br/><span>Equals</span><br/> <span>Attractive Resume</span>
-                            </h4>
-                        </div>
+                        </div>                         
                     </div>
                 </div>
             </div>

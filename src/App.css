@@ -7,3 +7,8 @@
   font-family: 'Raleway Thin';
   src: local('Raleway'), url(./Fonts/Raleway/static/Raleway-Thin.ttf) format('opentype');
 }
+
+@font-face {
+  font-family: 'Raleway Light';
+  src: local('Raleway'), url(./Fonts/Raleway/static/Raleway-Light.ttf) format('opentype');
+}
