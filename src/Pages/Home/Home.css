@@ -142,7 +142,7 @@
 
 .home-content-attraction-equation-div-desktop {
     margin-top: 20.8rem;
-    height: 300px !important;
+    /* height: 300px !important; */
 }
 
 @media only screen and (max-width: 1139px) and (min-width: 993px) {
@@ -151,12 +151,12 @@
     }
 }
 
-.home-content-attraction-equation-title {
+.home-content-attraction-equation-title, .home-content-redefine-attraction-title {
     font-family: "Raleway Thin", "Roboto";
     font-size: 2.3em;
 }
 
-.home-content-attraction-equation-description {
+.home-content-attraction-equation-description, .home-content-redefine-attraction-description {
     font-family: "Raleway Light", "Roboto";
     font-size: 2.3em;
     color: white;
@@ -174,7 +174,7 @@
     font-size: 0.8em;
 }
 
-.home-content-attraction-equation-card-panel {
+.home-content-attraction-equation-card-panel, .home-content-redefine-attraction-card-panel {
     background-color: #e53935;
 }
 

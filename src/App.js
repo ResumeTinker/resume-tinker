@@ -1,3 +1,5 @@
+import 'intersection-observer';
+
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -6,7 +8,6 @@ import 'materialize-css/dist/css/materialize.min.css'
 
 import './App.css';
 import Home from './Pages/Home/Home';
-
 
 M.AutoInit();
 
