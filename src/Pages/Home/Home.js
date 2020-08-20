@@ -20,26 +20,19 @@ const Home = () => {
                     <img src={Logo} alt={"Logo"} />
                     <h4 className="home-slogan">Sell Your <span className="home-slogan-skill">Skill</span></h4>
                 </div>
-                <div className="home-content-attraction-equation-div-desktop home-vertical-align">
-                    <div className="row valign-wrapper">
-                        <div className="col s6 m6 l6">
-                            <h4 className="home-content-attraction-equation-title-desktop center-align">
-                                Your Career + Our Design <br/><span>Equals</span><br/> <span>Attractive Resume</span>
-                            </h4>
-                        </div>
-                        <div className="col s6 m6 l6">
-                            <div className="card-panel home-content-attraction-equation-description-panel-desktop">
-                                <h6 className="home-content-attraction-equation-description-desktop">
+                <div className="home-content-attraction-equation-div-desktop">
+                    <div className="row ">
+                        <div className="col s12 m12 l12 home-content-attraction-equation-card-panel-outer">
+                            <div className="card-panel home-content-attraction-equation-card-panel home-content-attraction-equation-description-panel">
+                                <h6 className="home-content-attraction-equation-description">
                                     Get your recruiters' attention with our beautiful resume design and your great career
                                 </h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col s4 m4 l4">
-                        </div>
-                        <div className="col s8 m8 l8 right-align">
-                            
+                                <div className="card-panel">
+                                    <h4 className="home-content-attraction-equation-title center-align">
+                                        Your Career <span>+</span> Our Design <span>=</span> <span>Attractive Resume</span>
+                                    </h4>
+                                </div>
+                            </div>                         
                         </div>
                     </div>
                 </div>
@@ -50,14 +43,14 @@ const Home = () => {
                     <img src={Logo} alt={"Logo"} />
                     <h4 className="home-slogan">Sell Your <span className="home-slogan-skill">Skill</span></h4>
                 </div>
-                <div className="row home-vertical-align">
+                <div className="row">
                     <div className="col s12 m12 l6">
-                        <div className="card-panel home-content-attraction-equation-card-panel-desktop home-content-attraction-equation-description-panel-desktop">
-                            <h6 className="home-content-attraction-equation-description-desktop">
+                        <div className="card-panel home-content-attraction-equation-card-panel home-content-attraction-equation-description-panel">
+                            <h6 className="home-content-attraction-equation-description">
                                 Get your recruiters' attention with our beautiful resume design and your great career
                             </h6>
                             <div className="card-panel">
-                                <h4 className="home-content-attraction-equation-title-desktop center-align">
+                                <h4 className="home-content-attraction-equation-title center-align">
                                     Your Career <br/><span>Plus</span><br/> Our Design <br/><span>Equals</span><br/> <span>Attractive Resume</span>
                                 </h4>
                             </div>

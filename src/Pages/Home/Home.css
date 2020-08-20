@@ -141,40 +141,40 @@
 /* ------------content--------------- */
 
 .home-content-attraction-equation-div-desktop {
-    margin-top: 21rem;
+    margin-top: 20.8rem;
     height: 300px !important;
 }
 
 @media only screen and (max-width: 1139px) and (min-width: 993px) {
     .home-content-attraction-equation-div-desktop {
-        margin-top: 13em !important;
+        margin-top: 12.6em !important;
     }
 }
 
-.home-content-attraction-equation-title-desktop {
+.home-content-attraction-equation-title {
     font-family: "Raleway Thin", "Roboto";
     font-size: 2.3em;
 }
 
-.home-content-attraction-equation-description-desktop {
+.home-content-attraction-equation-description {
     font-family: "Raleway Light", "Roboto";
     font-size: 2.3em;
     color: white;
 }
 
-.home-content-attraction-equation-title-desktop > span:nth-of-type(3) {
+.home-content-attraction-equation-title > span:nth-of-type(3) {
     color: red;
 }
 
-.home-content-attraction-equation-title-desktop > span:nth-of-type(2) {
+.home-content-attraction-equation-title > span:nth-of-type(2) {
     font-size: 0.8em;
 }
 
-.home-content-attraction-equation-title-desktop > span:nth-of-type(1) {
+.home-content-attraction-equation-title > span:nth-of-type(1) {
     font-size: 0.8em;
 }
 
-.home-content-attraction-equation-card-panel-desktop {
+.home-content-attraction-equation-card-panel {
     background-color: #e53935;
 }
 
