@@ -59,7 +59,7 @@ const Home = () => {
 
                 <div className="row card-panel home-content-card-panel valign-wrapper">
                     <div className="col s6 m6 l6 card-panel home-content-title-card-panel">
-                        <h4 className="home-content-title home-content-begins-title">Your Resume <span className="red-text"><br/>Stays Yours*</span><br/>FOREVER</h4>
+                        <h4 className="home-content-title home-content-begins-title">Your Resume <span className="red-text"><br/>Stays Yours*</span><br/>Forever</h4>
                     </div>
                     <div className="col s6 m6 l6">
                         <h6 className="home-content-description">
@@ -121,7 +121,7 @@ const Home = () => {
 
                 <div className="row card-panel home-content-card-panel valign-wrapper">
                     <div className="col s6 m6 l6 card-panel home-content-title-card-panel">
-                        <h4 className="home-content-title home-content-begins-title">Your Resume <span className="red-text"><br/>Stays Yours*</span><br/>FOREVER</h4>
+                        <h4 className="home-content-title home-content-begins-title">Your Resume <span className="red-text"><br/>Stays Yours*</span><br/>Forever</h4>
                     </div>
                     <div className="col s6 m6 l6">
                         <h6 className="home-content-description">
