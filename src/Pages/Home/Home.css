@@ -1,3 +1,11 @@
+h6 {
+    margin-bottom: .7666666667rem;
+}
+
+h4 {
+    margin-bottom: 1.52rem;
+}
+
 .outer-div {
     background-image: "./assets/img/home_page_bg.svg";
 }
@@ -141,22 +149,26 @@
 /* ------------content--------------- */
 
 .home-content-attraction-equation-div-desktop {
-    margin-top: 20.8rem;
+    margin-top: 20em;
     /* height: 300px !important; */
+}
+
+.home-content-attraction-equation-card-panel {
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width: 1139px) and (min-width: 993px) {
     .home-content-attraction-equation-div-desktop {
-        margin-top: 12.6em !important;
+        margin-top: 11.8em !important;
     }
 }
 
-.home-content-attraction-equation-title, .home-content-redefine-attraction-title {
+.home-content-attraction-equation-title, .home-content-title {
     font-family: "Raleway Thin", "Roboto";
     font-size: 2.3em;
 }
 
-.home-content-attraction-equation-description, .home-content-redefine-attraction-description {
+.home-content-attraction-equation-description, .home-content-description {
     font-family: "Raleway Light", "Roboto";
     font-size: 2.3em;
     color: white;
@@ -174,8 +186,16 @@
     font-size: 0.8em;
 }
 
-.home-content-attraction-equation-card-panel, .home-content-redefine-attraction-card-panel {
+.home-content-attraction-equation-card-panel, .home-content-card-panel {
     background-color: #e53935;
+}
+
+.home-content-card-panel {
+    margin: 0;
+}
+
+.home-content-begins-title {
+    text-align: center;
 }
 
 @media only screen and (min-width: 601px) {
