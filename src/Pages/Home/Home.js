@@ -1,26 +1,26 @@
 import React from 'react';
-import Header from '../../PageBlocks/Header/Header';
 
 import RedBg from '../../assets/img/home_page_bg_red_person.webp';
 import Logo from '../../assets/img/Logo/complete-logo-compressed.webp'
+
+import Designs from '../../Pages/Designs/Designs';
 
 import './Home.css';
 
 const Home = () => {
     return (
-        <div>
-            <div className="home-red-bg hide-on-med-and-down">
-                <div className="home-red-bg-div">
-                    <img src={RedBg} alt="red background"/>
+        <div className="home-content-outer-div">
+
+            <div id="designs" className="modal modal-fit-content">
+                <div className="modal-content">
+                    <Designs />
+                </div>
+                <div className="modal-footer">
+                    <a href="#!" className="modal-close waves-effect waves-green btn-flat">Close</a>
                 </div>
             </div>
-            <Header />
-            <div className="hide-on-med-and-down">
 
-                <div className="home-logo right-align">
-                    <img src={Logo} alt={"Logo"} />
-                    <h4 className="home-slogan">Sell Your <span className="home-slogan-skill">Skill</span></h4>
-                </div>
+            <div className="hide-on-med-and-down ">
 
                 <div className="home-content-attraction-equation-div-desktop">
                     <div className="card-panel home-content-attraction-equation-card-panel">
@@ -80,11 +80,6 @@ const Home = () => {
             </div>
 
             <div className="hide-on-large-only">
-
-                <div className="home-logo center-align">
-                    <img src={Logo} alt={"Logo"} />
-                    <h4 className="home-slogan">Sell Your <span className="home-slogan-skill">Skill</span></h4>
-                </div>
 
                 <div className="card-panel home-content-attraction-equation-card-panel home-content-attraction-equation-description-panel">
                     <h6 className="home-content-attraction-equation-description">

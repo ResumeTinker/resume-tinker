@@ -27,3 +27,147 @@
     font-family: "Raleway Medium", "Roboto";
     font-size: 20px;
 }
+
+#simple-starter-image {
+    width: 100%;
+}
+
+
+.header-red-bg {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.header-red-bg > div > img {
+    width: 90em;
+}
+
+@media only screen and (max-width: 1140px) {
+
+    .header-red-bg {
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+    .header-red-bg > div > img {
+        width: 70em;
+    }
+
+    .header-logo > img {
+        width: 25em !important;
+    }
+    
+    .header-logo {
+        margin-top: 1em !important;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .header-logo > img {
+        width: 30em !important;
+        padding-right: 6em;
+    }
+    
+    .header-logo {
+        margin-top: 3.5em !important;
+    }
+
+    .header-slogan {
+        font-family: "Raleway Thin", "Roboto";
+        font-size: 3.9em;
+        padding-right: 1.6em;
+    }
+}
+
+@media only screen and (max-width: 1139px) and (min-width: 993px) {
+    .header-logo {
+        margin-top: 0.5em !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .header-logo {
+        margin-top: 5em !important;
+    }
+}
+
+.header-red-bg-div {
+    padding: 0 !important;
+}
+
+/* .home-logo > img {
+    width: 30em;
+    padding-right: 6em;
+}
+
+.home-logo {
+    margin-top: 4em;
+} */
+
+.header-slogan {
+    font-family: "Raleway Thin", "Roboto";
+    font-size: 3.9em;
+}
+
+@keyframes home-slogan-animation {
+    0% {color: black;}
+    50% {color: red;}
+    100% {color: black;}
+}
+
+@-webkit-keyframes home-slogan-animation {
+    0% {color: black;}
+    50% {color: red;}
+    100% {color: black;}
+}
+
+@-moz-keyframes home-slogan-animation {
+    0% {color: black;}
+    50% {color: red;}
+    100% {color: black;}
+}
+
+@-o-keyframes home-slogan-animation {
+    0% {color: black;}
+    50% {color: red;}
+    100% {color: black;}
+}
+
+@-ms-keyframes home-slogan-animation {
+    0% {color: black;}
+    50% {color: red;}
+    100% {color: black;}
+}
+
+.header-slogan-skill {
+    animation-name: "home-slogan-animation";
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name: "home-slogan-animation";
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: "home-slogan-animation";
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+
+    -o-animation-name: "home-slogan-animation";
+    -o-animation-duration: 3s;
+    -o-animation-iteration-count: infinite;
+
+    -ms-animation-name: "home-slogan-animation";
+    -ms-animation-duration: 3s;
+    -ms-animation-iteration-count: infinite;
+}
+/* 
+#designs {
+    width: 100%;
+    height: 100%;
+} */
