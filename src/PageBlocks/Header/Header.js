@@ -4,9 +4,6 @@ import AnchorWithLi from '../../Utilities/Link/AnchorWithLi/AnchorWithLi';
 
 import './Header.css';
 
-import RedBg from '../../assets/img/home_page_bg_red_person.webp';
-import Logo from '../../assets/img/Logo/complete-logo-compressed.webp'
-
 
 const scrollToDesignsLarge = (event) => {
     event.preventDefault();
@@ -48,13 +45,13 @@ const Header = () => {
             </nav>
             <div className="header-red-bg hide-on-med-and-down">
                 <div className="header-red-bg-div">
-                    <img src={RedBg} alt="red background"/>
+                    <img src={process.env.PUBLIC_URL + "/assets/img/home_page_bg_red_person.webp"} alt="red background"/>
                 </div>
             </div>
 
             <div className="hide-on-med-and-down">
                 <div className="header-logo right-align">
-                    <img src={Logo} alt={"Logo"} />
+                    <img src={process.env.PUBLIC_URL + "/assets/img/Logo/complete-logo-compressed.webp"} alt={"Logo"} />
                     <h4 className="header-slogan">Sell Your <span className="header-slogan-skill">Skill</span></h4>
                 </div>
             </div>
@@ -62,7 +59,7 @@ const Header = () => {
             <div className="hide-on-large-only">
 
                 <div className="header-logo center-align">
-                    <img src={Logo} alt={"Logo"} />
+                    <img src={process.env.PUBLIC_URL + "/assets/img/Logo/complete-logo-compressed.webp"} alt={"Logo"} />
                     <h4 className="header-slogan">Sell Your <span className="header-slogan-skill">Skill</span></h4>
                 </div>
 

@@ -27,10 +27,10 @@ const Designs = () => {
     return (
             <div className="carousel carousel-slider designs-slider">
                 <div className="carousel-item">
-                    <img className={"designs-simple-starter"} src={SimpleStarterImage} alt="SimpleStarterImage" />
+                    <img className={"designs-simple-starter"} src={process.env.PUBLIC_URL + "/assets/img/ResumeTemplatesPreviews/SimpleStarter/SimpleStarter.webp"} alt="SimpleStarterImage" />
                 </div>
                 <div className="carousel-item">
-                    <img className={"designs-simple-starter"} src={SimpleStarterImage} alt="SimpleStarterImage" />
+                    <img className={"designs-simple-starter"} src={process.env.PUBLIC_URL + "/assets/img/ResumeTemplatesPreviews/SimpleStarter/SimpleStarter.webp"} alt="SimpleStarterImage" />
                 </div>
             </div>
     );
