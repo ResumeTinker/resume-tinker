@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2086fd35c1689bd598a839a3c87a1b73",
+    "revision": "1540281f24d47a4d6ffb24c88845ab13",
     "url": "/resume-tinker/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume-tinker/static/css/2.5a510433.chunk.css"
   },
   {
-    "revision": "628125fde185616dce6e",
+    "revision": "7e5f93b2eacb4896d1ec",
     "url": "/resume-tinker/static/css/main.c6a86dac.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume-tinker/static/js/2.725439ad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "628125fde185616dce6e",
-    "url": "/resume-tinker/static/js/main.e0a34efb.chunk.js"
+    "revision": "7e5f93b2eacb4896d1ec",
+    "url": "/resume-tinker/static/js/main.b78ce1e1.chunk.js"
   },
   {
     "revision": "10800756bc9ce387ab52",
@@ -48,7 +48,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume-tinker/static/media/complete-logo-compressed.68b5b4a0.webp"
   },
   {
-    "revision": "9579ca8ce60ff526e5e025f6a7bfe4bd",
-    "url": "/resume-tinker/static/media/home_page_bg_red_person.9579ca8c.webp"
+    "revision": "27708911857db165ccbf11b02f690a51",
+    "url": "/resume-tinker/static/media/home_page_bg_red_person.27708911.webp"
   }
 ]);
