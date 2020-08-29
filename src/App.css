@@ -12,3 +12,12 @@
   font-family: 'Raleway Light';
   src: local('Raleway'), url(./Fonts/Raleway/static/Raleway-Light.ttf) format('opentype');
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.material-icons {
+  display: inline-flex;
+  vertical-align: bottom;
+}

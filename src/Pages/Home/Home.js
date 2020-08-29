@@ -1,8 +1,5 @@
 import React from 'react';
 
-import RedBg from '../../assets/img/home_page_bg_red_person.webp';
-import Logo from '../../assets/img/Logo/complete-logo-compressed.webp'
-
 import Designs from '../../Pages/Designs/Designs';
 
 import './Home.css';
@@ -11,26 +8,24 @@ const Home = () => {
     return (
         <div className="home-content-outer-div">
 
-            <div id="designs" className="modal modal-fit-content">
-                <div className="modal-content">
-                    <Designs />
-                </div>
-                <div className="modal-footer">
-                    <a href="#!" className="modal-close waves-effect waves-green btn-flat">Close</a>
-                </div>
-            </div>
-
             <div className="hide-on-med-and-down ">
 
                 <div className="home-content-attraction-equation-div-desktop">
                     <div className="card-panel home-content-attraction-equation-card-panel">
-                        <h6 className="home-content-attraction-equation-description">
-                            Get your recruiters' attention with our beautiful resume design and your great career
-                        </h6>
-                        <div className="card-panel">
-                            <h4 className="home-content-attraction-equation-title center-align">
-                                Your Career <span>+</span> Our Design <span>=</span> <span>Attractive Resume</span>
-                            </h4>
+                        <div className="row valign-wrapper">
+                            <div className="col s6">
+                                <h6 className="home-content-attraction-equation-description">
+                                    Get your recruiters' attention with our beautiful resume design and your great career
+                                </h6>
+                                <div className="card-panel">
+                                    <h4 className="home-content-attraction-equation-title center-align">
+                                        Your Career <br/><span>Plus</span><br/> Our Design <br/><span>Equals</span><br/> <span>Attractive Resume</span>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div className="col s6" id="designs-slider-large">
+                                <Designs />
+                            </div>
                         </div>
                     </div> 
                 </div>
@@ -82,14 +77,22 @@ const Home = () => {
             <div className="hide-on-large-only">
 
                 <div className="card-panel home-content-attraction-equation-card-panel home-content-attraction-equation-description-panel">
-                    <h6 className="home-content-attraction-equation-description">
-                        Get your recruiters' attention with our beautiful resume design and your great career
-                    </h6>
-                    <div className="card-panel">
-                        <h4 className="home-content-attraction-equation-title center-align">
-                            Your Career <br/><span>Plus</span><br/> Our Design <br/><span>Equals</span><br/> <span>Attractive Resume</span>
-                        </h4>
+                    <div className="row">
+                        <div className="col s12">
+                            <h6 className="home-content-attraction-equation-description">
+                                Get your recruiters' attention with our beautiful resume design and your great career
+                            </h6>
+                            <div className="card-panel">
+                                <h4 className="home-content-attraction-equation-title center-align">
+                                    Your Career <br/><span>Plus</span><br/> Our Design <br/><span>Equals</span><br/> <span>Attractive Resume</span>
+                                </h4>
+                            </div>
+                        </div>
+                        <div className="col s12" id="designs-slider-small">
+                            <Designs />
+                        </div>
                     </div>
+                    
                 </div>
                 
                 <div className="row card-panel home-content-card-panel">
@@ -134,7 +137,17 @@ const Home = () => {
                     </div>
                 </div>
 
+                <div className="row card-panel home-content-card-panel">
+                    <div className="col s12 m12 l6">
+                        <h6 className="home-content-description center-align"><a href="tel: +918122824215" className="white-text"><i className="material-icons">smartphone</i>+91 81 22 82 42 15</a></h6>
+                    </div>
+                    <div className="col s12 m12 l6 card-panel home-content-title-card-panel">
+                        <h4 className="home-content-title center-align">MAKE A <span className="red-text">CHANGE</span></h4>
+                    </div>
+                </div>
+
             </div>
+
 
         </div>
     )

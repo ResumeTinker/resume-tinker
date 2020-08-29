@@ -1,6 +1,4 @@
-import React, { useEffect } from 'react';
-
-import M from 'materialize-css';
+import React from 'react';
 
 import AnchorWithLi from '../../Utilities/Link/AnchorWithLi/AnchorWithLi';
 
@@ -10,25 +8,40 @@ import RedBg from '../../assets/img/home_page_bg_red_person.webp';
 import Logo from '../../assets/img/Logo/complete-logo-compressed.webp'
 
 
-const Header = () => {
+const scrollToDesignsLarge = (event) => {
+    event.preventDefault();
+    document.getElementById("designs-slider-large").scrollIntoView();
+}
 
-    useEffect (() => {
-        let elems = document.getElementById('designs');
-        let instances = M.Modal.init(elems);
-    }, []);
+const scrollToDesignsSmall = (event) => {
+    event.preventDefault();
+    document.getElementById("designs-slider-small").scrollIntoView();
+}
+
+const Header = () => {
 
     return (
         <header>
             <nav className="transparent z-depth-0">
             <div className="nav-wrapper">
-                {/* <a href="#" className="brand-logo">Logo</a> */}
-                <ul id="nav-mobile" className="right">
+                <ul id="nav-mobile" className="right hide-on-med-and-down">
                     <AnchorWithLi
                         using_router={false} 
-                        href="#designs"
+                        href="#designs-slider-large"
                         li_class_name="design-button"
                         class_name={"black-text modal-trigger"} 
                         name={"View Designs"}
+                        onClick={ (e) => scrollToDesignsLarge(e)}
+                    />
+                </ul>
+                <ul id="nav-mobile" className="right hide-on-large-only">
+                    <AnchorWithLi
+                        using_router={false} 
+                        href="#designs-slider-small"
+                        li_class_name="design-button"
+                        class_name={"black-text modal-trigger"} 
+                        name={"View Designs"}
+                        onClick={ (e) => scrollToDesignsSmall(e)}
                     />
                 </ul>
             </div>
