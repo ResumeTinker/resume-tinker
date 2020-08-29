@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1540281f24d47a4d6ffb24c88845ab13",
+    "revision": "ffd9c842fa6316fa14017e9434ba8c25",
     "url": "/resume-tinker/index.html"
   },
   {
-    "revision": "24a400c7213abeb566df",
+    "revision": "814a3ef70febfc998cb7",
     "url": "/resume-tinker/static/css/2.5a510433.chunk.css"
   },
   {
-    "revision": "7e5f93b2eacb4896d1ec",
+    "revision": "6a3ab355d61683f6defc",
     "url": "/resume-tinker/static/css/main.c6a86dac.chunk.css"
   },
   {
-    "revision": "24a400c7213abeb566df",
-    "url": "/resume-tinker/static/js/2.725439ad.chunk.js"
+    "revision": "814a3ef70febfc998cb7",
+    "url": "/resume-tinker/static/js/2.e79a3725.chunk.js"
   },
   {
     "revision": "f3df11ca4cc8eaf0f270098bfa135497",
-    "url": "/resume-tinker/static/js/2.725439ad.chunk.js.LICENSE.txt"
+    "url": "/resume-tinker/static/js/2.e79a3725.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e5f93b2eacb4896d1ec",
-    "url": "/resume-tinker/static/js/main.b78ce1e1.chunk.js"
+    "revision": "6a3ab355d61683f6defc",
+    "url": "/resume-tinker/static/js/main.47d2d1e4.chunk.js"
   },
   {
     "revision": "10800756bc9ce387ab52",
@@ -38,17 +38,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "07ac22f3d71e66a0799703116b533ac5",
     "url": "/resume-tinker/static/media/Raleway-Thin.07ac22f3.ttf"
-  },
-  {
-    "revision": "d4ac082d906764d8ca8e7b5d0e6e1797",
-    "url": "/resume-tinker/static/media/SimpleStarter.d4ac082d.webp"
-  },
-  {
-    "revision": "68b5b4a02ad107754121a8d594d2c18c",
-    "url": "/resume-tinker/static/media/complete-logo-compressed.68b5b4a0.webp"
-  },
-  {
-    "revision": "27708911857db165ccbf11b02f690a51",
-    "url": "/resume-tinker/static/media/home_page_bg_red_person.27708911.webp"
   }
 ]);

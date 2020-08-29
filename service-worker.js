@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/resume-tinker/precache-manifest.363d432df3c9364a103c3dc813e5c9f9.js"
+  "/resume-tinker/precache-manifest.2a8df517636e52f94fff9050102c7171.js"
 );
 
 self.addEventListener('message', (event) => {
