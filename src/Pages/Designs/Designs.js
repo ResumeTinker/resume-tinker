@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import SimpleStarterImage from '../../assets/img/ResumeTemplatesPreviews/SimpleStarter/SimpleStarter.webp';
 
 import M from 'materialize-css';
 
