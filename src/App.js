@@ -22,8 +22,8 @@ function App() {
                 <Route exact path="/" >
                     <Home />
                 </Route>
-                <Route exact path="/designs">
-                    <Designs />
+                <Route exact path="/resume-tinker">
+                    <Home />
                 </Route>
             </Switch>
         </BrowserRouter>
