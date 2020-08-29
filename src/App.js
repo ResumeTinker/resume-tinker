@@ -1,7 +1,7 @@
 import 'intersection-observer';
 
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch, HashRouter } from 'react-router-dom';
 import 'materialize-css/dist/css/materialize.min.css';
 
 import './App.css';
@@ -16,7 +16,7 @@ M.AutoInit();
 
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Header />
             <Switch>
                 <Route exact path="/" >
@@ -26,7 +26,7 @@ function App() {
                     <Home />
                 </Route>
             </Switch>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
