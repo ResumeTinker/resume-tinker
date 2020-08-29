@@ -72,6 +72,15 @@ const Home = () => {
                     </div>
                 </div>
 
+                <div className="row card-panel home-content-card-panel">
+                    <div className="col s12 m12 l12">
+                        <h6 className="home-content-description center-align"><a href="tel: +918122824215" className="white-text"><i className="material-icons">smartphone</i>+91 81 22 82 42 15</a></h6>
+                    </div>
+                    <div className="col s12 m12 l12 card-panel home-content-title-card-panel">
+                        <h4 className="home-content-title center-align">MAKE A <span className="red-text">CHANGE</span></h4>
+                    </div>
+                </div>
+
             </div>
 
             <div className="hide-on-large-only">

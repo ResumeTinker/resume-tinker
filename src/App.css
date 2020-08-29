@@ -16,8 +16,3 @@
 html {
   scroll-behavior: smooth;
 }
-
-.material-icons {
-  display: inline-flex;
-  vertical-align: bottom;
-}
