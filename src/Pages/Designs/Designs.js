@@ -19,6 +19,7 @@ const Designs = () => {
         const designsSlider = () => {
             setDesignSliderInstance( M.Carousel.init(designsSliderElem, options) );
         }
+        designsSlider();
         window.addEventListener('load', designsSlider);
         window.addEventListener('resize', designsSlider);
     }, []);
